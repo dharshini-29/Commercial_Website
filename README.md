@@ -1,5 +1,5 @@
 # Ex02 Commercial Website
-## Date:
+## Date:17/03/2025
 
 ## AIM
 To create a commercial website using CSS Flexbox.
@@ -51,9 +51,148 @@ Deploy the website.
 Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
+## Index.html:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Trend</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fashion Trend</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#account">User Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Fashion Trend</h2>
+        <p>Discover the latest trends in fashion and style.</p>
+    </section>
+
+    <section id="collections">
+        <h2>Our Collections</h2>
+        <p>Explore our latest fashion collections.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Fashion Trend is a leading fashion brand bringing you the latest styles.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@fashiontrend.com | Phone: +1234567890</p>
+    </section>
+
+    <section id="account">
+        <h2>User Account</h2>
+        <p>Login to explore exclusive fashion deals.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Name | Reg No: 123456</p>
+        <div class="social-links">
+            <a href="#">Facebook</a> |
+            <a href="#">Instagram</a> |
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>
+```
+
+## Style.css:
+```/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f7f1e3;
+    color: #333;
+    text-align: center;
+}
+
+/* Header & Navigation */
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(242, 150, 233);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff9f43;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    margin: 20px auto;
+    width: 80%;
+    background: rgb(242, 150, 233);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #ff9f43;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+```
 
 
 ## OUTPUT
+
+![Screenshot 2025-03-17 113400](https://github.com/user-attachments/assets/514523ab-798e-41fb-8782-dea8343a1ed3)
+
+
+![Screenshot 2025-03-17 113428](https://github.com/user-attachments/assets/f0faac9f-5797-4775-90a6-e5e45f2ad9fc)
 
 
 ## RESULT
